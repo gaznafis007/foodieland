@@ -1,3 +1,4 @@
+"use client";
 import { FaHeart, FaRegHeart, FaBookmark, FaRegBookmark } from "react-icons/fa"
 import { BsThreeDots } from "react-icons/bs"
 import { FiMessageCircle } from "react-icons/fi"
@@ -9,7 +10,7 @@ export default function InstagramPost({image}) {
   const [isSaved, setIsSaved] = useState(false)
 
   return (
-    <div className="max-w-[468px] bg-white rounded-lg shadow-md">
+    <div className="max-w-[468px] bg-white rounded-lg">
       {/* Header */}
       <div className="flex items-center justify-between p-4">
         <div className="flex items-center gap-3">

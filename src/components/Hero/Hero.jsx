@@ -16,7 +16,7 @@ const Hero = () => {
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim 
                 </p>
             </div>
-                <Button className={'text-white bg-black w-[180px] md:mt-[72px]'}>Learn More</Button>
+                <Button className={'text-white bg-black w-[180px] md:mt-[72px]'} bg={'bg-black'}>Learn More</Button>
             </div>
             {/* image section */}
             <div className="w-full md:w-1/2">
