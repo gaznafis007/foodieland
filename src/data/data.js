@@ -66,6 +66,20 @@ export const categories =[
     }
 ]
 
+export const instaPosts = [
+    {
+        img: "/assets/instagram-vegetables.png"
+    },
+    {
+        img: "/assets/instagram-pancake.png"
+    },
+    {
+        img: "/assets/instagram-onion.png"
+    },
+    {
+        img: "/assets/instagram-steak.png"
+    },
+]
 export const recipes = [
     {
         title: "Big and Juicy Wagyu Beef Cheeseburger",
