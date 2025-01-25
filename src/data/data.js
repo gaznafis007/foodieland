@@ -28,32 +28,41 @@ export const categories =[
     {
         _id: 1,
         title: 'breakfast',
-        img: '/assets/category-breakfast.png'
+        img: '/assets/category-breakfast.png',
+        background: "linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)"
     },
     {
         _id: 2,
         title: 'vegan',
-        img: '/assets/category-vegan.png'
+        img: '/assets/category-vegan.png',
+        background: "linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%)"
+
     },
     {
         _id: 3,
         title: 'meat',
-        img: '/assets/category-meat.png'
+        img: '/assets/category-meat.png',
+        background: "linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%)"
+
     },
     {
         _id: 4,
         title: 'dessert',
-        img: '/assets/category-dessert.png'
+        img: '/assets/category-dessert.png',
+        background: "linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%)"
     },
     {
         _id: 5,
         title: 'lunch',
-        img: '/assets/category-lunch.png'
+        img: '/assets/category-lunch.png',
+        background: "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%)"
+
     },
     {
         _id: 6,
         title: 'chocolate',
-        img: '/assets/category-chocolate.png'
+        img: '/assets/category-chocolate.png',
+        background: "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%)"
     }
 ]
 
