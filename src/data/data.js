@@ -9,19 +9,19 @@ export const navItems = [
     },
     {
         name:"Recipes",
-        path: "/",
+        path: "/recipes",
     },
     {
         name:"Blog",
-        path: "/",
+        path: "/blog",
     },
     {
         name:"Contact",
-        path: "/",
+        path: "/contact",
     },
     {
         name:"About us",
-        path: "/",
+        path: "/About us",
     },
 ]
 export const categories =[
