@@ -133,7 +133,7 @@ export default function Header() {
               </div>
             </div>
             {/* badge */}
-            <Image className="absolute top-[520px] left-[200px] md:top-[50px] md:left-[720px]" alt="badge" src={"/assets/badge.png"} width={150} height={150}/>
+            <Image className="absolute top-[480px] left-[200px] md:top-[50px] md:left-[720px]" alt="badge" src={"/assets/badge.png"} width={150} height={150}/>
           </SwiperSlide>
         ))}
       </Swiper>
