@@ -13,7 +13,7 @@ const FeaturedRecipes = async () => {
                 Try this delicious recipe
                 to make your day
                 </h2>
-                <p className="font-thin">
+                <p className="text-gray-500">
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim 
                 </p>
             </div>

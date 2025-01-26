@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Brand and Description */}
           <div className="space-y-2">
             <Image alt="logo" width={110} height={30} src={'/assets/logo.png'}/>
-            <p className="text-gray-500 text-sm max-w-[300px]">Lorem ipsum dolor sit amet, consectetuipisicing elit.</p>
+            <p className="text-gray-500 text-sm">Lorem ipsum dolor sit amet, consectetuipisicing elit.</p>
           </div>
 
           {/* Navigation */}

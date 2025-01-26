@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-24">
         {
             navItems.map((item, index) => (
-                <Link href={item?.path} key={index} className="font-semibold">{item?.name}</Link>
+                <Link href={item?.path} key={index}>{item?.name}</Link>
             ))
         }
       </div>

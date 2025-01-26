@@ -30,7 +30,7 @@ const Recipes = async () => {
     <section className="p-10 md:p-20">
       <div className="flex flex-col items-center justify-center">
         <h2 className="text-6xl font-semibold">Simple and tasty recipes</h2>
-        <p className="mt-3 md:mt-6 font-thin w-full md:w-1/2 text-center text-gray-500">
+        <p className="mt-3 md:mt-6 text-gray-500 w-full md:w-1/2 text-center">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
           possimus porro tempora qui iusto aut explicabo quae exercitationem
           eveniet magni?

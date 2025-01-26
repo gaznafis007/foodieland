@@ -21,7 +21,7 @@ const Categories = async () => {
                             <div className="w-30 h-20">
                             <Image src={category.img} alt={category.title} width={50} height={650} className='w-full'/>
                             </div>
-                            <h3 className="text-xl font-semibold">{category.title}</h3>
+                            <h3 className="text-xl font-semibold capitalize">{category.title}</h3>
                         </div>
                     ))
                 }

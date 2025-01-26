@@ -1,16 +1,10 @@
-import { Geist, Geist_Mono } from "next/font/google";
+
 import "./globals.css";
 import Navbar from "@/components/Navabr/Navbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+import { Inter } from "next/font/google"
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Foodieland",
@@ -21,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black`}
+        className={`${inter.className} antialiased bg-white text-black`}
       >
         <Navbar/>
         {children}

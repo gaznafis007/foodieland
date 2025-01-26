@@ -8,7 +8,7 @@ const HeroSection = () => {
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-semibold text-center">
         Deliciousness to your inbox
       </h1>
-      <p className="text-sm sm:text-base md:text-lg mt-3 md:mt-6 font-thin text-center text-gray-500 w-[90%] sm:w-[70%] md:w-1/2 mx-auto">
+      <p className="text-sm sm:text-base md:text-lg mt-3 md:mt-6 text-center text-gray-500 w-[90%] sm:w-[70%] md:w-1/2 mx-auto">
         We offer a wide variety of healthy and delicious meals that are perfect for any occasion. Our meals are made
         with fresh, high-quality ingredients and are prepared by our team of experienced chefs.
       </p>

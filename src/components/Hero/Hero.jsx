@@ -12,7 +12,7 @@ const Hero = () => {
                 Everyone can be a
                 chef in their own kitchen
                 </h2>
-                <p className="font-thin w-[508px] leading-relaxed">
+                <p className="text-gray-500 w-[508px] leading-relaxed">
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim 
                 </p>
             </div>
