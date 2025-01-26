@@ -76,7 +76,7 @@ src/
 
 ## 🌐 Deployment
 
-The project is deployed live at: **[Deployed URL](https://foodieland-beryl.vercel.app/)** (Replace with your deployment link, e.g., Vercel URL)
+The project is deployed live at: **[Deployed URL](https://foodieland-beryl.vercel.app/)**
 
 ---
 
@@ -93,17 +93,6 @@ The project is deployed live at: **[Deployed URL](https://foodieland-beryl.verce
 - [x] Modular React components.
 - [x] GitHub commits reflecting progress.
 - [x] Deployed the application.
-
----
-
-## 📜 Commit History
-
-Meaningful commits were made to reflect the development progress, adhering to best GitHub practices. Example commit messages:
-1. **"Initialized project with Next.js and TailwindCSS setup"**
-2. **"Implemented About Us page with routing"**
-3. **"Completed responsive design for all pages"**
-4. **"Integrated navigation bar for seamless routing"**
-5. **"Final cleanup and deployment to Vercel"**
 
 ---
 
