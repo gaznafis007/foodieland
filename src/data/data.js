@@ -24,6 +24,27 @@ export const navItems = [
         path: "/about",
     },
 ]
+export const blogPosts = [
+  {
+    id: 1,
+    title: "The Art of Food Plating",
+    excerpt: "Learn how to present your dishes like a pro chef...",
+    date: "May 15, 2023",
+  },
+  {
+    id: 2,
+    title: "Seasonal Cooking: Spring Edition",
+    excerpt: "Discover the best ingredients and recipes for spring...",
+    date: "April 22, 2023",
+  },
+  {
+    id: 3,
+    title: "Vegan Baking 101",
+    excerpt: "Master the basics of vegan baking with these tips and tricks...",
+    date: "March 10, 2023",
+  },
+  // Add more blog posts as needed
+]
 export const categories =[
     {
         _id: 1,
