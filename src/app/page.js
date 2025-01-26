@@ -18,7 +18,6 @@ export default function Home() {
       <Reviews/>
       <FeaturedRecipes/>
       <ContactUs/>
-      <Footer/>
     </div>
   );
 }
