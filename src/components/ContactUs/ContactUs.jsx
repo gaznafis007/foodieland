@@ -12,7 +12,7 @@ const HeroSection = () => {
         We offer a wide variety of healthy and delicious meals that are perfect for any occasion. Our meals are made
         with fresh, high-quality ingredients and are prepared by our team of experienced chefs.
       </p>
-      <div className="mt-8 md:mt-16 bg-white p-2 sm:p-3 rounded-xl w-[90%] sm:w-[80%] md:w-[480px] mx-auto flex flex-col sm:flex-row gap-3 sm:gap-0 justify-between">
+      <div className="mt-8 md:mt-16 bg-white p-2 sm:p-3 rounded-xl w-[90%] sm:w-[80%] md:w-[480px] mx-auto flex sm:flex-row gap-3 sm:gap-0 justify-between">
         <input
           className="ml-2 sm:ml-6 w-full sm:w-auto focus:outline-none"
           type="text"
