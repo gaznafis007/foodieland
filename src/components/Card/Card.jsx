@@ -4,7 +4,7 @@ import { PiForkKnifeFill } from "react-icons/pi";
 import { FaHeart } from "react-icons/fa";
 import { useState } from "react";
 
-export default function Card({ className, data, bg }) {
+export default function Card({ className, data }) {
   const [fav, setFav] = useState(false);
   const { title, duration, type, img } = data;
   return (

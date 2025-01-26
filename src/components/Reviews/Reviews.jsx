@@ -1,6 +1,8 @@
 import { fetchData } from '@/utils/fetchData';
 import React from 'react';
 import InstagramPost from '../InstagramPost/InstagramPost';
+import Button from '../Button/Button';
+import { FaInstagram } from "react-icons/fa"
 
 const Reviews = async () => {
     const instaPosts = await fetchData('/instaPost')
@@ -18,6 +20,14 @@ const Reviews = async () => {
                 {
                     instaPosts.map(instaPost =><InstagramPost key={instaPost.img} image={instaPost.img}></InstagramPost>)
                 }
+            </div>
+            <div className="flex flex-col items-center justify-center">
+            <Button bg={'bg-black'} className={'mt-10 md:mt-20 text-center inline-block mx-auto'}>
+                <div className="flex flex-row justify-between items-center space-x-2">
+                    <p className="text-white">Visit our Instagram</p>
+                    <FaInstagram className='text-white text-2xl'/>
+                </div>
+            </Button>
             </div>
         </section>
     );
