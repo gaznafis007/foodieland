@@ -8,7 +8,7 @@ export default function Card({ className, data, bg }) {
   const [fav, setFav] = useState(false);
   const { title, duration, type, img } = data;
   return (
-    <div className={`max-w-[400px] ${className}`}>
+    <div className={`w-full md:max-w-[350px] ${className}`}>
       {/* Image Container with Heart Button */}
       <div className="relative">
         <img src={img} alt={title} className="w-full rounded-lg" />
@@ -24,7 +24,7 @@ export default function Card({ className, data, bg }) {
 
       
         {/* Title */}
-        <h2 className="text-[17px] font-semibold mt-4 mb-1 w-2/3">{title}</h2>
+        <h2 className="text-[18px] font-semibold mt-4 w-5/6">{title}</h2>
 
         {/* Metadata */}
         <div className="flex items-center gap-3 md:gap-6 text-gray-600 mt-6">
@@ -34,7 +34,7 @@ export default function Card({ className, data, bg }) {
           </div>
           <div className="flex items-center gap-1">
             <PiForkKnifeFill className="text-3xl text-black" />
-            <span className="">{type}</span>
+            <span className="capitalize">{type}</span>
           </div>
         </div>
       
