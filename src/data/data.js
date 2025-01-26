@@ -147,7 +147,7 @@ export const recipes = [
         title: "Healthy Japanese Fried Rice with Asparagus",
         duration: "30 minutes",
         type: "healthy",
-        img: "/assets/recipe-chicken-japnese-asparagus.png",
+        img: "/assets/recipe-japanese.png",
         featured: true,
     },
     {

@@ -10,7 +10,7 @@ export default function InstagramPost({image}) {
   const [isSaved, setIsSaved] = useState(false)
 
   return (
-    <div className="max-w-[468px] bg-white rounded-lg">
+    <div className="max-w-[468px] bg-white rounded-lg mx-auto">
       {/* Header */}
       <div className="flex items-center justify-between p-4">
         <div className="flex items-center gap-3">
