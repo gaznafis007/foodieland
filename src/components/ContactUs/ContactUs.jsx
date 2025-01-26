@@ -4,7 +4,7 @@ import Button from "../Button/Button"
 const HeroSection = () => {
   return (
     <section className="px-4 sm:px-6 md:px-20 my-8 sm:my-10 md:my-20">
-        <div className="bg-primary relative rounded-xl pt-10 md:pt-20 pb-10">
+        <div className="bg-primary relative rounded-2xl pt-10 md:pt-20 pb-10">
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-semibold text-center">
         Deliciousness to your inbox
       </h1>
@@ -23,11 +23,11 @@ const HeroSection = () => {
           Subscribe
         </Button>
       </div>
-      <div className="hidden lg:block lg:w-[280px] xl:w-[410px] absolute left-0 bottom-0">
+      <div className="hidden lg:block lg:w-[280px] xl:w-[410px] absolute left-0 bottom-0 rounded-bl-2xl">
         <Image alt="vegetable" className="w-full" src={"/assets/inbox-veg.png"} width={400} height={400} />
       </div>
-      <div className="hidden lg:block w-[280px] xl:w-[410px] absolute right-0 bottom-0">
-        <Image alt="vegetable" className="w-full" src={"/assets/inbox-noodles.png"} width={400} height={400} />
+      <div className="hidden lg:block w-[280px] xl:w-[410px] absolute right-0 bottom-0 ">
+        <Image alt="vegetable" className="w-full rounded-2xl" src={"/assets/inbox-noodles.png"} width={400} height={400} />
       </div>
         </div>
       
