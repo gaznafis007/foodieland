@@ -21,7 +21,7 @@ export const navItems = [
     },
     {
         name:"About us",
-        path: "/About us",
+        path: "/about",
     },
 ]
 export const categories =[
